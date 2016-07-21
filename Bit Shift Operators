@@ -1,0 +1,22 @@
+Bit Shift Operators
+Công thức tính:
+Left shift:  N << k 
+	N * (2^k)
+Right shift: luôn luôn dịch chuyển
+	N / (2^k)
+•	N >> k:  dịch chuyển phải, luôn giữ dấu âm hay dương.
+•	N >>> k:  : luôn luôn dịch chuyển phải, thêm số 0 ở đầu, bất kể số âm hay dương.
+Kiểu giá trị mà phép dịch bit biểu thị là dạng cao cấp của toán hạng bên trái.
+Nếu như kiểu giá trị cao cấp của toán hạng bên trái là int, thì chỉ có năm bit thấp nhất theo thứ tự của toán hạng bên phải được sử dụng như là khoảng cách dịch chuyển.
+Nếu như kiểu giá trị cao cấp của toán hạng bên trái là long, thì chỉ có sáu bit thấp nhất theo tứ tự của toán hạng bên phải được sử dụng như là khoảng cách dịch chuyển.
+Kết quả của n >>> s là n bị dịch chuyển sang phải s bit và đệm 0 vào bên trái tương ứng.
+Trong toán tử nói chung và phép dịch bit nói riêng, kiểu dữ liệu  byte được hàm ý chuyển thành int
+
+
+
+Thông tin:
+http://stackoverflow.com/questions/10910913/how-do-shift-operators-work-in-java
+https://vi.wikipedia.org/wiki/Ph%C3%A9p_to%C3%A1n_thao_t%C3%A1c_bit#D.E1.BB.8Bch_chuy.E1.BB.83n_trong_Java
+
+
+	
